@@ -5,7 +5,9 @@ int factorial(int N);
 
 int main() {
 
+	long long result = factorial(17);
 
+	cout << "The factorial of 17 is " << result << endl;
 
 }
 
